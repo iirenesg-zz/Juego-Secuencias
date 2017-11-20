@@ -1,0 +1,70 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.wrapper {
+	width: 605px;
+	margin: 100px auto 0;
+	position: relative;
+}
+
+.alert {
+	position: absolute;
+	left: 25%;
+	top: -10%;
+	padding: 30px 20px;
+	background-color: orange;
+	color: #fff;
+	border-radius: 15px;
+	font: 72px sans-serif;
+	visibility: hidden;
+}
+
+.gameBox {
+	display: inline-block;
+	padding: 75px 50px;
+	border: 5px solid;
+	border-radius: 15px;
+}
+
+.gameBlock {
+	height: 100px;
+	width: 100px;
+	margin-right: 20px;
+	background-color: #000;
+	border-radius: 100px;
+	display: inline-block;
+}
+
+button {
+	font-size: 24px;
+	margin: 20px 0 0 40%;
+	border: 3px solid #000;
+	background-color: #000;
+	color: #fff;
+	padding: 10px 20px;
+}
+
+button:hover {
+	border: 3px solid green;
+	background-color: green;
+	color: #fff;
+}
+
+.gameInfo {
+	height: 30px;
+	margin-bottom: 10px;
+}
+
+.levelBox {
+	font: bold 24px sans-serif;
+	display: inline-block;
+}
+
+.livesBox {
+	position: absolute;
+	right: 0;
+	display: inline-block;
+	font: bold 24px sans-serif;
+}
